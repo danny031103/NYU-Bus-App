@@ -8,13 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		F1827A192C49DC4C00F0F422 /* NYU_BUS_ROUTERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A182C49DC4C00F0F422 /* NYU_BUS_ROUTERApp.swift */; };
-		F1827A1B2C49DC4C00F0F422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A1A2C49DC4C00F0F422 /* ContentView.swift */; };
 		F1827A1D2C49DC4C00F0F422 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A1C2C49DC4C00F0F422 /* Item.swift */; };
 		F1827A1F2C49DC4F00F0F422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1827A1E2C49DC4F00F0F422 /* Assets.xcassets */; };
 		F1827A222C49DC4F00F0F422 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1827A212C49DC4F00F0F422 /* Preview Assets.xcassets */; };
 		F1827A2C2C49DC5000F0F422 /* NYU_BUS_ROUTERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A2B2C49DC5000F0F422 /* NYU_BUS_ROUTERTests.swift */; };
 		F1827A362C49DC5000F0F422 /* NYU_BUS_ROUTERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A352C49DC5000F0F422 /* NYU_BUS_ROUTERUITests.swift */; };
 		F1827A382C49DC5000F0F422 /* NYU_BUS_ROUTERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A372C49DC5000F0F422 /* NYU_BUS_ROUTERUITestsLaunchTests.swift */; };
+		F1827A452C49DCA000F0F422 /* BusStopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A442C49DCA000F0F422 /* BusStopTime.swift */; };
+		F1827A462C49DCA000F0F422 /* BusStopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A442C49DCA000F0F422 /* BusStopTime.swift */; };
+		F1827A472C49DCA000F0F422 /* BusStopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827A442C49DCA000F0F422 /* BusStopTime.swift */; };
+		F1827A7E2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A7D2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json */; };
+		F1827A7F2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A7D2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json */; };
+		F1827A802C49DD4B00F0F422 /* Route_A_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A7D2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json */; };
+		F1827A822C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A812C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json */; };
+		F1827A832C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A812C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json */; };
+		F1827A842C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A812C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json */; };
+		F1827A862C49DD6500F0F422 /* Route_A_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A852C49DD6500F0F422 /* Route_A_Schedule_Weekend.json */; };
+		F1827A872C49DD6500F0F422 /* Route_A_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A852C49DD6500F0F422 /* Route_A_Schedule_Weekend.json */; };
+		F1827A882C49DD6500F0F422 /* Route_A_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A852C49DD6500F0F422 /* Route_A_Schedule_Weekend.json */; };
+		F1827A8A2C49DD6E00F0F422 /* Route_B_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A892C49DD6E00F0F422 /* Route_B_Schedule_Friday.json */; };
+		F1827A8B2C49DD6E00F0F422 /* Route_B_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A892C49DD6E00F0F422 /* Route_B_Schedule_Friday.json */; };
+		F1827A8C2C49DD6E00F0F422 /* Route_B_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A892C49DD6E00F0F422 /* Route_B_Schedule_Friday.json */; };
+		F1827A8E2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A8D2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json */; };
+		F1827A8F2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A8D2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json */; };
+		F1827A902C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A8D2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json */; };
+		F1827A922C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A912C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json */; };
+		F1827A932C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A912C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json */; };
+		F1827A942C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A912C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json */; };
+		F1827A962C49DD9200F0F422 /* Route_E_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A952C49DD9200F0F422 /* Route_E_Schedule_Friday.json */; };
+		F1827A972C49DD9200F0F422 /* Route_E_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A952C49DD9200F0F422 /* Route_E_Schedule_Friday.json */; };
+		F1827A982C49DD9200F0F422 /* Route_E_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A952C49DD9200F0F422 /* Route_E_Schedule_Friday.json */; };
+		F1827A9A2C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A992C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json */; };
+		F1827A9B2C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A992C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json */; };
+		F1827A9C2C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A992C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json */; };
+		F1827A9E2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A9D2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json */; };
+		F1827A9F2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A9D2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json */; };
+		F1827AA02C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827A9D2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json */; };
+		F1827AA22C49DDA900F0F422 /* Route_G_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA12C49DDA900F0F422 /* Route_G_Schedule_Friday.json */; };
+		F1827AA32C49DDA900F0F422 /* Route_G_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA12C49DDA900F0F422 /* Route_G_Schedule_Friday.json */; };
+		F1827AA42C49DDA900F0F422 /* Route_G_Schedule_Friday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA12C49DDA900F0F422 /* Route_G_Schedule_Friday.json */; };
+		F1827AA62C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA52C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json */; };
+		F1827AA72C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA52C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json */; };
+		F1827AA82C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA52C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json */; };
+		F1827AAA2C49DDB200F0F422 /* Route_G_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA92C49DDB200F0F422 /* Route_G_Schedule_Weekend.json */; };
+		F1827AAB2C49DDB200F0F422 /* Route_G_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA92C49DDB200F0F422 /* Route_G_Schedule_Weekend.json */; };
+		F1827AAC2C49DDB200F0F422 /* Route_G_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AA92C49DDB200F0F422 /* Route_G_Schedule_Weekend.json */; };
+		F1827AAE2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AAD2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json */; };
+		F1827AAF2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AAD2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json */; };
+		F1827AB02C49DDB800F0F422 /* Route_W_Schedule_Weekend.json in Resources */ = {isa = PBXBuildFile; fileRef = F1827AAD2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json */; };
+		F1827AB22C4AEB8700F0F422 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB12C4AEB8700F0F422 /* ScheduleView.swift */; };
+		F1827AB32C4AEB8700F0F422 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB12C4AEB8700F0F422 /* ScheduleView.swift */; };
+		F1827AB42C4AEB8700F0F422 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB12C4AEB8700F0F422 /* ScheduleView.swift */; };
+		F1827AB62C4AEC3500F0F422 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB52C4AEC3500F0F422 /* MainView.swift */; };
+		F1827AB72C4AEC3500F0F422 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB52C4AEC3500F0F422 /* MainView.swift */; };
+		F1827AB82C4AEC3500F0F422 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB52C4AEC3500F0F422 /* MainView.swift */; };
+		F1827ABA2C4AEC5C00F0F422 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB92C4AEC5C00F0F422 /* MapsView.swift */; };
+		F1827ABB2C4AEC5C00F0F422 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB92C4AEC5C00F0F422 /* MapsView.swift */; };
+		F1827ABC2C4AEC5C00F0F422 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827AB92C4AEC5C00F0F422 /* MapsView.swift */; };
+		F1827ABE2C4AEC7A00F0F422 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827ABD2C4AEC7A00F0F422 /* HomeView.swift */; };
+		F1827ABF2C4AEC7A00F0F422 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827ABD2C4AEC7A00F0F422 /* HomeView.swift */; };
+		F1827AC02C4AEC7A00F0F422 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1827ABD2C4AEC7A00F0F422 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +90,6 @@
 /* Begin PBXFileReference section */
 		F1827A152C49DC4C00F0F422 /* NYU_BUS_ROUTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYU_BUS_ROUTER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1827A182C49DC4C00F0F422 /* NYU_BUS_ROUTERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_BUS_ROUTERApp.swift; sourceTree = "<group>"; };
-		F1827A1A2C49DC4C00F0F422 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1827A1C2C49DC4C00F0F422 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F1827A1E2C49DC4F00F0F422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1827A212C49DC4F00F0F422 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +98,24 @@
 		F1827A312C49DC5000F0F422 /* NYU_BUS_ROUTERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYU_BUS_ROUTERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1827A352C49DC5000F0F422 /* NYU_BUS_ROUTERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_BUS_ROUTERUITests.swift; sourceTree = "<group>"; };
 		F1827A372C49DC5000F0F422 /* NYU_BUS_ROUTERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_BUS_ROUTERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1827A442C49DCA000F0F422 /* BusStopTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopTime.swift; sourceTree = "<group>"; };
+		F1827A7D2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_A_Schedule_Friday.json; path = "../../../NYU_Bus_App/data/Route A/Route_A_Schedule_Friday.json"; sourceTree = "<group>"; };
+		F1827A812C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Route_A_Schedule_Monday-Thursday.json"; path = "../../../NYU_Bus_App/data/Route A/Route_A_Schedule_Monday-Thursday.json"; sourceTree = "<group>"; };
+		F1827A852C49DD6500F0F422 /* Route_A_Schedule_Weekend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_A_Schedule_Weekend.json; path = "../../../NYU_Bus_App/data/Route A/Route_A_Schedule_Weekend.json"; sourceTree = "<group>"; };
+		F1827A892C49DD6E00F0F422 /* Route_B_Schedule_Friday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_B_Schedule_Friday.json; path = "../../../NYU_Bus_App/data/Route B/Route_B_Schedule_Friday.json"; sourceTree = "<group>"; };
+		F1827A8D2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Route_B_Schedule_Monday-Thursday.json"; path = "../../../NYU_Bus_App/data/Route B/Route_B_Schedule_Monday-Thursday.json"; sourceTree = "<group>"; };
+		F1827A912C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Route_C_Schedule_Monday-Thursday.json"; path = "../../../NYU_Bus_App/data/Route C/Route_C_Schedule_Monday-Thursday.json"; sourceTree = "<group>"; };
+		F1827A952C49DD9200F0F422 /* Route_E_Schedule_Friday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_E_Schedule_Friday.json; path = "../../../NYU_Bus_App/data/Route E/Route_E_Schedule_Friday.json"; sourceTree = "<group>"; };
+		F1827A992C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Route_E_Schedule_Monday-Thursday.json"; path = "../../../NYU_Bus_App/data/Route E/Route_E_Schedule_Monday-Thursday.json"; sourceTree = "<group>"; };
+		F1827A9D2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Route_F_Schedule_Monday-Thursday.json"; path = "../../../NYU_Bus_App/data/Route F/Route_F_Schedule_Monday-Thursday.json"; sourceTree = "<group>"; };
+		F1827AA12C49DDA900F0F422 /* Route_G_Schedule_Friday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_G_Schedule_Friday.json; path = "../../../NYU_Bus_App/data/Route G/Route_G_Schedule_Friday.json"; sourceTree = "<group>"; };
+		F1827AA52C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Route_G_Schedule_Monday-Thursday.json"; path = "../../../NYU_Bus_App/data/Route G/Route_G_Schedule_Monday-Thursday.json"; sourceTree = "<group>"; };
+		F1827AA92C49DDB200F0F422 /* Route_G_Schedule_Weekend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_G_Schedule_Weekend.json; path = "../../../NYU_Bus_App/data/Route G/Route_G_Schedule_Weekend.json"; sourceTree = "<group>"; };
+		F1827AAD2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Route_W_Schedule_Weekend.json; path = "../../../NYU_Bus_App/data/Route W/Route_W_Schedule_Weekend.json"; sourceTree = "<group>"; };
+		F1827AB12C4AEB8700F0F422 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		F1827AB52C4AEC3500F0F422 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F1827AB92C4AEC5C00F0F422 /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		F1827ABD2C4AEC7A00F0F422 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +167,12 @@
 			isa = PBXGroup;
 			children = (
 				F1827A182C49DC4C00F0F422 /* NYU_BUS_ROUTERApp.swift */,
-				F1827A1A2C49DC4C00F0F422 /* ContentView.swift */,
+				F1827AB12C4AEB8700F0F422 /* ScheduleView.swift */,
+				F1827A442C49DCA000F0F422 /* BusStopTime.swift */,
+				F1827ABD2C4AEC7A00F0F422 /* HomeView.swift */,
+				F1827AB92C4AEC5C00F0F422 /* MapsView.swift */,
+				F1827AB52C4AEC3500F0F422 /* MainView.swift */,
+				F1827A482C49DCBF00F0F422 /* data */,
 				F1827A1C2C49DC4C00F0F422 /* Item.swift */,
 				F1827A1E2C49DC4F00F0F422 /* Assets.xcassets */,
 				F1827A202C49DC4F00F0F422 /* Preview Content */,
@@ -128,6 +203,26 @@
 				F1827A372C49DC5000F0F422 /* NYU_BUS_ROUTERUITestsLaunchTests.swift */,
 			);
 			path = NYU_BUS_ROUTERUITests;
+			sourceTree = "<group>";
+		};
+		F1827A482C49DCBF00F0F422 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F1827A812C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json */,
+				F1827A852C49DD6500F0F422 /* Route_A_Schedule_Weekend.json */,
+				F1827A892C49DD6E00F0F422 /* Route_B_Schedule_Friday.json */,
+				F1827A952C49DD9200F0F422 /* Route_E_Schedule_Friday.json */,
+				F1827A9D2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json */,
+				F1827A912C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json */,
+				F1827AA12C49DDA900F0F422 /* Route_G_Schedule_Friday.json */,
+				F1827AAD2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json */,
+				F1827AA52C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json */,
+				F1827AA92C49DDB200F0F422 /* Route_G_Schedule_Weekend.json */,
+				F1827A992C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json */,
+				F1827A8D2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json */,
+				F1827A7D2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +329,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1827AA62C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json in Resources */,
+				F1827A7E2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json in Resources */,
+				F1827A962C49DD9200F0F422 /* Route_E_Schedule_Friday.json in Resources */,
+				F1827AA22C49DDA900F0F422 /* Route_G_Schedule_Friday.json in Resources */,
+				F1827AAE2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json in Resources */,
 				F1827A222C49DC4F00F0F422 /* Preview Assets.xcassets in Resources */,
 				F1827A1F2C49DC4F00F0F422 /* Assets.xcassets in Resources */,
+				F1827A8A2C49DD6E00F0F422 /* Route_B_Schedule_Friday.json in Resources */,
+				F1827A9A2C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json in Resources */,
+				F1827A822C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json in Resources */,
+				F1827AAA2C49DDB200F0F422 /* Route_G_Schedule_Weekend.json in Resources */,
+				F1827A922C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json in Resources */,
+				F1827A862C49DD6500F0F422 /* Route_A_Schedule_Weekend.json in Resources */,
+				F1827A9E2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json in Resources */,
+				F1827A8E2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +351,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1827A8F2C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json in Resources */,
+				F1827A972C49DD9200F0F422 /* Route_E_Schedule_Friday.json in Resources */,
+				F1827A932C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json in Resources */,
+				F1827A9F2C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json in Resources */,
+				F1827A9B2C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json in Resources */,
+				F1827A7F2C49DD4B00F0F422 /* Route_A_Schedule_Friday.json in Resources */,
+				F1827AA32C49DDA900F0F422 /* Route_G_Schedule_Friday.json in Resources */,
+				F1827AAF2C49DDB800F0F422 /* Route_W_Schedule_Weekend.json in Resources */,
+				F1827A8B2C49DD6E00F0F422 /* Route_B_Schedule_Friday.json in Resources */,
+				F1827A832C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json in Resources */,
+				F1827AA72C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json in Resources */,
+				F1827A872C49DD6500F0F422 /* Route_A_Schedule_Weekend.json in Resources */,
+				F1827AAB2C49DDB200F0F422 /* Route_G_Schedule_Weekend.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +371,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1827A902C49DD7900F0F422 /* Route_B_Schedule_Monday-Thursday.json in Resources */,
+				F1827A982C49DD9200F0F422 /* Route_E_Schedule_Friday.json in Resources */,
+				F1827A942C49DD8700F0F422 /* Route_C_Schedule_Monday-Thursday.json in Resources */,
+				F1827AA02C49DDA000F0F422 /* Route_F_Schedule_Monday-Thursday.json in Resources */,
+				F1827A9C2C49DD9900F0F422 /* Route_E_Schedule_Monday-Thursday.json in Resources */,
+				F1827A802C49DD4B00F0F422 /* Route_A_Schedule_Friday.json in Resources */,
+				F1827AA42C49DDA900F0F422 /* Route_G_Schedule_Friday.json in Resources */,
+				F1827AB02C49DDB800F0F422 /* Route_W_Schedule_Weekend.json in Resources */,
+				F1827A8C2C49DD6E00F0F422 /* Route_B_Schedule_Friday.json in Resources */,
+				F1827A842C49DD5F00F0F422 /* Route_A_Schedule_Monday-Thursday.json in Resources */,
+				F1827AA82C49DDAD00F0F422 /* Route_G_Schedule_Monday-Thursday.json in Resources */,
+				F1827A882C49DD6500F0F422 /* Route_A_Schedule_Weekend.json in Resources */,
+				F1827AAC2C49DDB200F0F422 /* Route_G_Schedule_Weekend.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +394,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1827A1B2C49DC4C00F0F422 /* ContentView.swift in Sources */,
+				F1827AB22C4AEB8700F0F422 /* ScheduleView.swift in Sources */,
+				F1827AB62C4AEC3500F0F422 /* MainView.swift in Sources */,
 				F1827A1D2C49DC4C00F0F422 /* Item.swift in Sources */,
 				F1827A192C49DC4C00F0F422 /* NYU_BUS_ROUTERApp.swift in Sources */,
+				F1827ABE2C4AEC7A00F0F422 /* HomeView.swift in Sources */,
+				F1827ABA2C4AEC5C00F0F422 /* MapsView.swift in Sources */,
+				F1827A452C49DCA000F0F422 /* BusStopTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +408,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1827ABB2C4AEC5C00F0F422 /* MapsView.swift in Sources */,
 				F1827A2C2C49DC5000F0F422 /* NYU_BUS_ROUTERTests.swift in Sources */,
+				F1827AB72C4AEC3500F0F422 /* MainView.swift in Sources */,
+				F1827ABF2C4AEC7A00F0F422 /* HomeView.swift in Sources */,
+				F1827A462C49DCA000F0F422 /* BusStopTime.swift in Sources */,
+				F1827AB32C4AEB8700F0F422 /* ScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +422,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1827A362C49DC5000F0F422 /* NYU_BUS_ROUTERUITests.swift in Sources */,
+				F1827AC02C4AEC7A00F0F422 /* HomeView.swift in Sources */,
+				F1827AB42C4AEB8700F0F422 /* ScheduleView.swift in Sources */,
 				F1827A382C49DC5000F0F422 /* NYU_BUS_ROUTERUITestsLaunchTests.swift in Sources */,
+				F1827ABC2C4AEC5C00F0F422 /* MapsView.swift in Sources */,
+				F1827AB82C4AEC3500F0F422 /* MainView.swift in Sources */,
+				F1827A472C49DCA000F0F422 /* BusStopTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
